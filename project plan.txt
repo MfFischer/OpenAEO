@@ -1,0 +1,218 @@
+# OpenAEO – Project Plan (Prototype Phase)
+
+## 1. Project Overview
+
+**OpenAEO** is an open-source infrastructure layer that enables websites to become:
+
+* AI-readable
+* Verifiable
+* Privacy-aware
+
+This project focuses on building the **core AI-readability engine and basic verification layer** within a 6-month prototype timeline.
+
+---
+
+## 2. Objectives
+
+### Primary Goal
+
+Develop a working prototype that converts web content into structured, AI-consumable data with basic trust verification.
+
+### Secondary Goals
+
+* Define a reusable output standard for AI agents
+* Provide a developer-friendly API and CLI
+* Demonstrate real-world use cases on sample websites
+
+---
+
+## 3. Scope (What WILL be built)
+
+### 3.1 AI Readability Engine (Core)
+
+* Parse HTML content from a given URL
+* Extract:
+
+  * Title
+  * Main content
+  * Key entities
+  * Summary
+  * Intent classification
+* Output structured JSON format
+
+---
+
+### 3.2 Verification Layer (Basic)
+
+* Generate content hash (SHA-256)
+* Create signature for content integrity
+* Attach verification metadata to output
+
+---
+
+### 3.3 API Layer
+
+* Endpoint: `/analyze`
+* Input: URL or raw HTML
+* Output: Structured JSON (AI-ready format)
+
+---
+
+### 3.4 CLI Tool
+
+* Command: `openaeo analyze <url>`
+* Outputs JSON in terminal or file
+
+---
+
+### 3.5 Documentation
+
+* README (project intro)
+* Usage examples
+* API documentation
+
+---
+
+## 4. Out of Scope (For Prototype Phase)
+
+* Full ZK-proof implementation
+* Complex AI ranking/scoring systems
+* CMS plugins (WordPress, Shopify, etc.)
+* UI dashboard
+* SaaS features (auth, billing, hosting)
+
+---
+
+## 5. Technical Architecture
+
+### Input
+
+* URL or HTML document
+
+### Processing Pipeline
+
+1. HTML parsing
+2. Content extraction
+3. NLP/LLM structuring
+4. JSON formatting
+5. Hashing & verification
+
+### Output
+
+Structured JSON:
+
+* Content summary
+* Entities
+* Intent
+* Verification metadata
+
+---
+
+## 6. Tech Stack
+
+* Python
+* FastAPI (API layer)
+* BeautifulSoup / Playwright (HTML parsing)
+* Optional: LLM API (content structuring)
+
+---
+
+## 7. Timeline (6 Months)
+
+### Month 1 – Setup & Design
+
+* Define JSON output schema
+* Set up repo structure
+* Build basic HTML parser
+
+---
+
+### Month 2 – Core Extraction
+
+* Implement content extraction
+* Generate summaries
+* Extract entities
+
+---
+
+### Month 3 – Structuring Engine
+
+* Build AI-readable JSON format
+* Standardize outputs
+* Add intent classification
+
+---
+
+### Month 4 – Verification Layer
+
+* Implement hashing (SHA-256)
+* Add signature system
+* Attach verification metadata
+
+---
+
+### Month 5 – API + CLI
+
+* Build FastAPI endpoint
+* Implement CLI tool
+* Add example use cases
+
+---
+
+### Month 6 – Testing & Documentation
+
+* Test on multiple websites
+* Improve output quality
+* Finalize documentation
+
+---
+
+## 8. Deliverables
+
+By the end of the prototype phase:
+
+* Working AI-readability engine
+* JSON output standard
+* Basic verification system
+* API + CLI tool
+* Public GitHub repository
+
+---
+
+## 9. Risks & Mitigation
+
+### Risk: Inconsistent content extraction
+
+Mitigation: Start with simple heuristics, improve iteratively
+
+### Risk: Overengineering
+
+Mitigation: Strictly follow defined scope
+
+### Risk: LLM dependency
+
+Mitigation: Keep fallback rule-based extraction
+
+---
+
+## 10. Future Work (Post-Prototype)
+
+* Zero-knowledge verification layer
+* CMS integrations
+* AI agent integration (plugins/tools)
+* Decentralized identity + content ownership
+* Full open standard specification
+
+---
+
+## 11. Vision
+
+OpenAEO aims to become a foundational layer for:
+
+* Transparent AI-web interaction
+* Verifiable machine-readable content
+* Privacy-preserving data sharing
+
+---
+
+**End of Plan**

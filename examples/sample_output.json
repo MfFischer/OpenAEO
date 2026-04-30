@@ -1,0 +1,23 @@
+{
+  "title": "OpenAEO - AI Infrastructure Layer",
+  "summary": "OpenAEO is an open-source infrastructure layer that enables websites to become AI-readable, verifiable, and privacy-aware. It addresses the invisibility of websites to AI systems by providing a modular toolkit.",
+  "entities": [
+    "OpenAEO",
+    "AI agents",
+    "European data protection standards",
+    "GDPR"
+  ],
+  "intent": "informational",
+  "key_facts": [
+    "Transforms web content into machine-readable formats",
+    "Adds verifiable trust signals",
+    "Enables privacy-aware exposure"
+  ],
+  "ai_context_block": "Title: OpenAEO - AI Infrastructure Layer. Intent: informational. Summary: OpenAEO is an open-source infrastructure layer...",
+  "verification": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "signature": "placeholder_sig",
+    "method": "SHA-256",
+    "timestamp": "2024-04-30T20:50:00Z"
+  }
+}
