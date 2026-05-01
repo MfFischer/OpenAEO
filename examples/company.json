@@ -1,0 +1,39 @@
+{
+  "title": "W3C",
+  "summary": "The World Wide Web Consortium (W3C) developsstandards and guidelinesto help everyone build and enjoy a web based on the principles ofaccessibility,internationalization,privacyandsecurity. A range of organizations join the World Wide Web Consortium as Members to work with us to drive the direction of",
+  "entities": [
+    "The World Wide Web Consortium",
+    "World Wide Web Consortium",
+    "The Web Consortium",
+    "Advisory Board",
+    "Technical Architecture Group",
+    "Web Consortium",
+    "Advisory Committee",
+    "News In",
+    "Seth Dobbs",
+    "Based Restrictions",
+    "Blog News",
+    "Representative Office",
+    "Partner Beihang University",
+    "World",
+    "Wide"
+  ],
+  "intent": "informational",
+  "key_topics": [
+    "web",
+    "work",
+    "world",
+    "consortium",
+    "members",
+    "board",
+    "organizations",
+    "community",
+    "standards",
+    "technical"
+  ],
+  "ai_context_block": "OPENAEO_CONTEXT_v0.1\nTITLE: W3C\nINTENT: informational\nTOPICS: web, work, world, consortium, members\nENTITIES: The World Wide Web Consortium, World Wide Web Consortium, The Web Consortium, Advisory Board, Technical Architecture Group\nSUMMARY: The World Wide Web Consortium (W3C) developsstandards and guidelinesto help everyone build and enjoy a web based on the principles ofaccessibility,internationalization,privacyandsecurity.\nEND_CONTEXT",
+  "source_url": "https://www.w3.org",
+  "content_hash": "babb5ff0bb5c4bc4840cf27ff817bf821482a4b73486c467654e219ed9bebad9",
+  "openaeo_version": "0.1",
+  "timestamp": "2026-05-01T18:00:57.934471+00:00"
+}

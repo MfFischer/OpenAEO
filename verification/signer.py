@@ -1,4 +1,5 @@
 import hashlib
+from datetime import datetime, timezone
 from typing import Dict, Any
 
 class ContentSigner:
@@ -16,5 +17,6 @@ class ContentSigner:
             "hash": content_hash,
             "signature": "placeholder_sig",
             "method": "SHA-256",
-            "timestamp": "2024-04-30T20:50:00Z"
+            "timestamp": datetime.now(timezone.utc).isoformat()
         }
+
